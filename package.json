@@ -1,0 +1,23 @@
+{
+  "name": "cpo.is",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "next": "^2.4.3",
+    "react": "^15.5.4",
+    "react-animations": "^0.1.0",
+    "react-dom": "^15.5.4",
+    "styled-components": "^2.0.1"
+  }
+}
