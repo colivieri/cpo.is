@@ -6,13 +6,14 @@ const FooterContainer = styled.div`
   width: 100%;
   background-color: #f2f2f2;
   color: #666;
-  height: 20vh;
+  height: 40vh;
   text-align: center;
   margin: 5px;
 
-  flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: center;
+  flex-direction: row;
+
   > img {
     width: 5%;
     text-align: center;
@@ -20,10 +21,17 @@ const FooterContainer = styled.div`
     justify-content: center;
     display: inline;
   }
+
+  > h3 {
+    font-weight: 100;
+    font-size: 1em;
+    margin-bottom: 35px;
+  }
+
   > a {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bolder;
-    color: black;
+    font-weight: 900;
+    color: #24292e;
     margin: 10px;
   }
 `
@@ -31,6 +39,7 @@ const Footer = () => (
     <FooterContainer>
         <img src="./static/c-grey.jpg"/>
         <br/>
+        <h3>Chase Olivieri</h3>
         <Link href="/">
           <a>Home</a>
         </Link>

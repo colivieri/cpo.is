@@ -1,9 +1,10 @@
 import { injectGlobal } from 'styled-components';
-import Footer from './Footer'
+import Footer from './Footer';
+import styled from 'styled-components';
 
 /* eslint-disable */
 injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700|Source+Serif+Pro');
+  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900|Source+Serif+Pro');
 
   body {
     font-family: 'Source Serif Pro', serif;
@@ -19,11 +20,15 @@ injectGlobal`
     }
   }
 `
+
+export const Container = styled.div`
+  margin: 0 auto;
+`
 const Layout = (props) => (
-  <div>
+  <Container>
     {props.children}
     <Footer/>
-  </div>
+  </Container>
 )
 
 export default Layout
