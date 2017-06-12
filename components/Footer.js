@@ -1,26 +1,18 @@
 import Link from 'next/link'
 import styled from 'styled-components';
 
-const FooterContainer = styled.div`
+const FooterContainer = styled.footer`
   padding: 1rem 0 .65625rem;
-  width: 100%;
   background-color: #f2f2f2;
   color: #666;
-  height: 40vh;
+  height: 30vh;
   text-align: center;
   margin: 5px;
+  display: flex; 
 
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-
-  > img {
-    width: 5%;
-    text-align: center;
-    margin: 20px;
-    justify-content: center;
-    display: inline;
-  }
+  flex-wrap: wrap;
 
   > h3 {
     font-weight: 100;
@@ -29,16 +21,35 @@ const FooterContainer = styled.div`
   }
 
   > a {
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
     color: #24292e;
     margin: 10px;
   }
 `
+
+const ChaseIcon = styled.img`
+  width: 5%;
+  margin: 20px;
+  display: inline;
+`
+const Social = styled.img`
+  width: 30px;
+  margin: 20px;
+  background-color: #e3e3e3;
+  padding: 12px;
+  
+  &:hover {
+    background-color: white;
+  }
+`
+
 const Footer = () => (
     <FooterContainer>
-        <img src="./static/c-grey.jpg"/>
-        <br/>
+        <ChaseIcon src="./static/c-grey.jpg"/>
         <h3>Chase Olivieri</h3>
         <Link href="/">
           <a>Home</a>
@@ -52,6 +63,9 @@ const Footer = () => (
         <Link href="/contact">
           <a>Contact</a>
         </Link>
+        <Social src="./static/instagram.png" />
+        <Social src="./static/twitter.png" />
+        <Social src="./static/angellist.png"/>
     </FooterContainer>
 )
 
