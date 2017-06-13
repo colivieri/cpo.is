@@ -23,8 +23,6 @@ var _CPO_Theme2 = require('../components/CPO_Theme.js');
 
 var _CPO_Theme3 = _interopRequireDefault(_CPO_Theme2);
 
-var _reactCssAnimate = require('react-css-animate');
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _jsxFileName = '/Users/chasefoto/Desktop/cpo.is/pages/index.js?entry';
@@ -55,101 +53,101 @@ var Index = function Index() {
   return _react2.default.createElement(_CPO_Theme3.default, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 86
     }
   }, _react2.default.createElement(PostCard, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 87
     }
   }, _react2.default.createElement(Avatar, { src: 'https://pbs.twimg.com/profile_images/344513261569144716/a5f2f32a10970817e1545afc50a3ac4b_400x400.jpeg', __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 88
     }
   }), _react2.default.createElement('h1', {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 89
     }
   }, 'Chase Olivieri'), _react2.default.createElement('p', {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 90
     }
   }, 'Hi! I\'m a designer and developer that splits time between San Francisco and Lake Tahoe. I currently work as a React and Rails freelancer. I also enjoy surfing, skiing and coconut chocolate-chip cookies. Seriously, coconut is a gamechanger.'), _react2.default.createElement('p', {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 91
     }
   }, 'I believe in design solutions that are both functional and wordly. My past work includes ', _react2.default.createElement('a', { href: '#', __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 91
     }
   }, 'OIA'), ', ', _react2.default.createElement('a', { href: '#', __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 91
     }
   }, 'Teach For America'), ', ', _react2.default.createElement('a', { href: '#', __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 91
     }
   }, 'Firefox'), ' and hush-hush stuff at ', _react2.default.createElement('a', { href: '#', __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 91
     }
   }, 'GreenWater'), '.'), _react2.default.createElement('p', {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 92
     }
   }, 'Travel directly informs the work that I do day-to-day and exposes me to people both in busy cities and those living on the edge of the grid. I\'ve visited over 77 countries so far and am frequently on planes off to discover new places.'), _react2.default.createElement('p', {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 93
     }
   }, 'Mi casa es su casa - cruise around the site and please free to ', _react2.default.createElement('a', { href: '#', __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 93
     }
   }, 'get in touch'), '! I always love chatting with new people.'), _react2.default.createElement('p', {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 94
     }
   }, '\uD83E\uDD19 Chase')), _react2.default.createElement(Wrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 96
     }
   }, _react2.default.createElement(AdventuresButton, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 97
     }
   }, _react2.default.createElement('h2', {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 97
     }
   }, 'Adventures')), _react2.default.createElement(AboutButton, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 98
     }
   }, _react2.default.createElement('h2', {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 98
     }
   }, 'About')), _react2.default.createElement(ContactButton, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 99
     }
   }, _react2.default.createElement('h2', {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 99
     }
   }, 'Contact'))));
 };

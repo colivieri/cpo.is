@@ -17,9 +17,9 @@ var _styledComponents = require('styled-components');
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _footer = require('./footer');
+var _Footer = require('./Footer');
 
-var _footer2 = _interopRequireDefault(_footer);
+var _Footer2 = _interopRequireDefault(_Footer);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -38,7 +38,7 @@ var Layout = function Layout(props) {
       fileName: _jsxFileName,
       lineNumber: 42
     }
-  }, props.children, _react2.default.createElement(_footer2.default, {
+  }, props.children, _react2.default.createElement(_Footer2.default, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44

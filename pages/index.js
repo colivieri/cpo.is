@@ -1,7 +1,6 @@
 import { InjectGlobal } from '../components/CPO_Theme';
 import styled from 'styled-components';
 import Layout from '../components/CPO_Theme.js';
-import { fadeInUp } from 'react-css-animate';
 
 export const Wrapper = styled.div`
   display: flex;

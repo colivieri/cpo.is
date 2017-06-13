@@ -22,7 +22,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/chasefoto/Desktop/cpo.is/components/footer.js';
+var _jsxFileName = '/Users/chasefoto/Desktop/cpo.is/components/Footer.js';
 
 var _templateObject = (0, _taggedTemplateLiteral3.default)(['\n  padding: 1rem 0 .65625rem;\n  background-color: #f2f2f2;\n  color: #666;\n  height: 30vh;\n  text-align: center;\n  margin: 5px;\n  display: flex; \n\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n\n  > h3 {\n    font-weight: 100;\n    font-size: 1em;\n    margin-bottom: 35px;\n  }\n\n  > a {\n    display: flex;\n    flex: 0 0 100%;\n    justify-content: center;\n    font-family: \'Source Sans Pro\', sans-serif;\n    font-weight: 900;\n    color: #24292e;\n    margin: 10px;\n  }\n'], ['\n  padding: 1rem 0 .65625rem;\n  background-color: #f2f2f2;\n  color: #666;\n  height: 30vh;\n  text-align: center;\n  margin: 5px;\n  display: flex; \n\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n\n  > h3 {\n    font-weight: 100;\n    font-size: 1em;\n    margin-bottom: 35px;\n  }\n\n  > a {\n    display: flex;\n    flex: 0 0 100%;\n    justify-content: center;\n    font-family: \'Source Sans Pro\', sans-serif;\n    font-weight: 900;\n    color: #24292e;\n    margin: 10px;\n  }\n']),
     _templateObject2 = (0, _taggedTemplateLiteral3.default)(['\n  width: 5%;\n  margin: 20px;\n  display: inline;\n'], ['\n  width: 5%;\n  margin: 20px;\n  display: inline;\n']),
