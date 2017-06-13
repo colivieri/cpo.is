@@ -5,36 +5,26 @@ const FooterContainer = styled.footer`
   padding: 1rem 0 .65625rem;
   background-color: #f2f2f2;
   color: #666;
-  height: 30vh;
+  height: 100%;
   text-align: center;
   margin: 5px;
   display: flex; 
+  flex-direction: row;
 
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
 
-  > h3 {
-    font-weight: 100;
-    font-size: 1em;
-    margin-bottom: 35px;
-  }
-
-  > a {
-    display: flex;
-    flex: 0 0 100%;
+  > div {
+    display: flex; 
+    flex-basis: calc(100%);  
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 900;
-    color: #24292e;
-    margin: 10px;
   }
 `
 
 const ChaseIcon = styled.img`
-  width: 5%;
-  margin: 20px;
-  display: inline;
+  width: 55px;
+  margin: 20px 0;
 `
 const Social = styled.img`
   width: 30px;
@@ -46,26 +36,44 @@ const Social = styled.img`
     background-color: white;
   }
 `
+const FooterNav = styled.section`
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  cursor: hand;
+
+  > h3 {
+    padding: 0 20px;
+    font-size: 1em;
+  }
+  > h3:hover {
+    color: black;
+    transition: color .3s;
+  }
+`
+const FooterSocial = styled.section`
+`
 
 const Footer = () => (
     <FooterContainer>
+      <div>
         <ChaseIcon src="./static/c-grey.jpg"/>
-        <h3>Chase Olivieri</h3>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-        <Link href="/adventures">
-          <a>Adventures</a>
-        </Link>
-        <Link href="/about">
-          <a>About</a>
-        </Link>
-        <Link href="/contact">
-          <a>Contact</a>
-        </Link>
-        <Social src="./static/instagram.png" />
-        <Social src="./static/twitter.png" />
-        <Social src="./static/angellist.png"/>
+      </div>
+       <div>
+        <FooterNav>
+          <Link href="/"><h3>Home</h3></Link>
+          <Link href="/adventures"><h3>Adventures</h3></Link>
+          <Link href="/gear"><h3>Gear</h3></Link>
+          <Link href="/contact"><h3>Contact</h3></Link>
+        </FooterNav>
+      </div>
+       <div>
+       <FooterSocial>
+          <Link><Social src="./static/instagram.png" /></Link>
+          <Social src="./static/twitter.png" />
+          <Social src="./static/angellist.png"/>
+        </FooterSocial>
+      </div>
     </FooterContainer>
 )
 

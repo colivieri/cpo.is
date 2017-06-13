@@ -1,6 +1,7 @@
 import { injectGlobal } from 'styled-components';
-import Footer from './Footer';
+import Footer from './footer';
 import styled from 'styled-components';
+import media from '../components/media';
 
 /* eslint-disable */
 injectGlobal`
@@ -34,6 +35,11 @@ injectGlobal`
     }
   }
 `
+export const black = '#666';
+export const grey = '#7d7d7d';
+export const red = '#24292E';
+export const orange = '#F16125';
+export const yellow = '#F8B03E;';
 
 export const Container = styled.div`
   margin: 0 auto;

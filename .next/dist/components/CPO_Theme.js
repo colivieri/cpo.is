@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Container = undefined;
+exports.Container = exports.yellow = exports.orange = exports.red = exports.grey = exports.black = undefined;
 
 var _taggedTemplateLiteral2 = require('babel-runtime/helpers/taggedTemplateLiteral');
 
@@ -17,9 +17,13 @@ var _styledComponents = require('styled-components');
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _Footer = require('./Footer');
+var _footer = require('./footer');
 
-var _Footer2 = _interopRequireDefault(_Footer);
+var _footer2 = _interopRequireDefault(_footer);
+
+var _media = require('../components/media');
+
+var _media2 = _interopRequireDefault(_media);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30,18 +34,23 @@ var _templateObject = (0, _taggedTemplateLiteral3.default)(['\n  @import url(\'h
 
 /* eslint-disable */
 (0, _styledComponents.injectGlobal)(_templateObject);
+var black = exports.black = '#666';
+var grey = exports.grey = '#7d7d7d';
+var red = exports.red = '#24292E';
+var orange = exports.orange = '#F16125';
+var yellow = exports.yellow = '#F8B03E;';
 
 var Container = exports.Container = _styledComponents2.default.div(_templateObject2);
 var Layout = function Layout(props) {
   return _react2.default.createElement(Container, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 48
     }
-  }, props.children, _react2.default.createElement(_Footer2.default, {
+  }, props.children, _react2.default.createElement(_footer2.default, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 50
     }
   }));
 };
