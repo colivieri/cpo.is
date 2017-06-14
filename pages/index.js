@@ -6,7 +6,7 @@ import media from '../components/media';
 
 export const Wrapper = styled.div`
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 `
 export const PostCard = styled.section`
   width: 70%;
@@ -17,7 +17,7 @@ export const PostCard = styled.section`
     width: 70%;
   `}
   ${media.phone`
-    width: 90%;
+    width: 95%;
     font-size: .9em;
     }
   `}
@@ -58,7 +58,7 @@ export const Button = styled.div`
   cursor: pointer; 
   cursor: hand;
 
-  flex: 1;
+  flex: 25%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -66,7 +66,6 @@ export const Button = styled.div`
   padding: 10px 20px;
   margin: 5px;
 
-  box-shaddow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
   transition: box-shadow .25s;
   border-radius: 3px;
 

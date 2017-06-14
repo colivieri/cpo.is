@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styled from 'styled-components';
+import media from '../components/media';
 
 const FooterContainer = styled.footer`
   padding: 1rem 0 .65625rem;
@@ -35,7 +36,12 @@ const Social = styled.img`
   &:hover {
     background-color: white;
   }
+
+  ${media.phone`
+    width: 20px;
+  `}
 `
+
 const FooterNav = styled.section`
   display: flex;
   flex-wrap: wrap;
@@ -45,11 +51,16 @@ const FooterNav = styled.section`
   > h3 {
     padding: 0 20px;
     font-size: 1em;
+    ${media.phone`
+      font-size: .8em;
+      padding: 0 10px;
+    }`
   }
   > h3:hover {
     color: black;
     transition: color .3s;
   }
+
 `
 const FooterSocial = styled.section`
 `

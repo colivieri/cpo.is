@@ -9,8 +9,8 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-          <title>My page</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+            <title>Chase Olivieri | Designer, Developer and Travel Photographer | ChaseOlivieri.com</title>          
           {styleTags}
         </Head>
         <body>

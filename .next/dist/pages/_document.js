@@ -69,24 +69,28 @@ var MyDocument = function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 11
         }
-      }, _react2.default.createElement('title', {
-        __source: {
+      }, _react2.default.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1', __source: {
           fileName: _jsxFileName,
           lineNumber: 12
         }
-      }, 'My page'), styleTags), _react2.default.createElement('body', {
+      }), _react2.default.createElement('title', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 13
+        }
+      }, 'Chase Olivieri | Designer, Developer and Travel Photographer | ChaseOlivieri.com'), styleTags), _react2.default.createElement('body', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
         }
       }, _react2.default.createElement('div', { className: 'root', __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 17
         }
       }, main), _react2.default.createElement(_document.NextScript, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 20
         }
       })));
     }

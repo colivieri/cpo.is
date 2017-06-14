@@ -1,5 +1,5 @@
 import { injectGlobal } from 'styled-components';
-import Footer from './footer';
+import Footer from './Footer';
 import styled from 'styled-components';
 import media from '../components/media';
 
