@@ -34,7 +34,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var _jsxFileName = '/Users/chasefoto/Desktop/cpo.is/pages/index.js?entry';
 
 var _templateObject = (0, _taggedTemplateLiteral3.default)(['\n  display: flex;\n  flex-flow: row wrap;\n'], ['\n  display: flex;\n  flex-flow: row wrap;\n']),
-    _templateObject2 = (0, _taggedTemplateLiteral3.default)(['\n  width: 70%;\n  margin: 0 auto;\n  text-align: center;\n  \n  ', '\n  ', '\n\n  > h1 {\n    font-family: \'Avenir Next\';\n    font-weight: 600;\n    font-size: 2em;\n    padding-bottom: 10px;\n    border-bottom: 1px solid #f3f3f3;\n  }\n\n  > p {\n    color: ', ';\n    margin-top: 0px;\n    font-size: 1.2em;\n    text-align: left;\n    line-height: 26px;\n  }\n  a {\n    color: #7d7d7d;\n    border-bottom: solid 3px red;\n  }\n  a:hover {\n    color: black;\n    padding-bottom: 2px;\n    transition: padding-bottom .1s;\n  }\n'], ['\n  width: 70%;\n  margin: 0 auto;\n  text-align: center;\n  \n  ', '\n  ', '\n\n  > h1 {\n    font-family: \'Avenir Next\';\n    font-weight: 600;\n    font-size: 2em;\n    padding-bottom: 10px;\n    border-bottom: 1px solid #f3f3f3;\n  }\n\n  > p {\n    color: ', ';\n    margin-top: 0px;\n    font-size: 1.2em;\n    text-align: left;\n    line-height: 26px;\n  }\n  a {\n    color: #7d7d7d;\n    border-bottom: solid 3px red;\n  }\n  a:hover {\n    color: black;\n    padding-bottom: 2px;\n    transition: padding-bottom .1s;\n  }\n']),
+    _templateObject2 = (0, _taggedTemplateLiteral3.default)(['\n  width: 70%;\n  margin: 0 auto;\n  text-align: center;\n  padding-bottom: 20px;\n  \n  ', '\n  ', '\n\n  > h1 {\n    font-weight: 600;\n    font-size: 2em;\n    padding-bottom: 10px;\n    border-bottom: 1px solid #f3f3f3;\n  }\n\n  > p {\n    color: ', ';\n    margin-top: 0px;\n    font-size: 1.2em;\n    text-align: left;\n    line-height: 26px;\n  }\n  a {\n    color: #7d7d7d;\n    border-bottom: solid 3px red;\n  }\n  a:hover {\n    color: black;\n    padding-bottom: 2px;\n    transition: padding-bottom .1s;\n  }\n'], ['\n  width: 70%;\n  margin: 0 auto;\n  text-align: center;\n  padding-bottom: 20px;\n  \n  ', '\n  ', '\n\n  > h1 {\n    font-weight: 600;\n    font-size: 2em;\n    padding-bottom: 10px;\n    border-bottom: 1px solid #f3f3f3;\n  }\n\n  > p {\n    color: ', ';\n    margin-top: 0px;\n    font-size: 1.2em;\n    text-align: left;\n    line-height: 26px;\n  }\n  a {\n    color: #7d7d7d;\n    border-bottom: solid 3px red;\n  }\n  a:hover {\n    color: black;\n    padding-bottom: 2px;\n    transition: padding-bottom .1s;\n  }\n']),
     _templateObject3 = (0, _taggedTemplateLiteral3.default)(['\n    width: 70%;\n  '], ['\n    width: 70%;\n  ']),
     _templateObject4 = (0, _taggedTemplateLiteral3.default)(['\n    width: 95%;\n    font-size: .9em;\n    }\n  '], ['\n    width: 95%;\n    font-size: .9em;\n    }\n  ']),
     _templateObject5 = (0, _taggedTemplateLiteral3.default)(['\n  font-family: \'Source Serif Pro\', serif;\n  background-color: ', ';\n  color: black;\n  height: 18vh;\n  text-align: center;\n  text-transform: uppercase;\n  cursor: pointer; \n  cursor: hand;\n\n  flex: 25%;\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n  text-align: center;\n  padding: 10px 20px;\n  margin: 5px;\n\n  transition: box-shadow .25s;\n  border-radius: 3px;\n\n  > h2 {\n    font-size: 2.4em;\n    color: white;\n  }\n'], ['\n  font-family: \'Source Serif Pro\', serif;\n  background-color: ', ';\n  color: black;\n  height: 18vh;\n  text-align: center;\n  text-transform: uppercase;\n  cursor: pointer; \n  cursor: hand;\n\n  flex: 25%;\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n  text-align: center;\n  padding: 10px 20px;\n  margin: 5px;\n\n  transition: box-shadow .25s;\n  border-radius: 3px;\n\n  > h2 {\n    font-size: 2.4em;\n    color: white;\n  }\n']),
@@ -61,8 +61,7 @@ var Index = function Index() {
       fileName: _jsxFileName,
       lineNumber: 98
     }
-  }, _react2.default.createElement(PostCard, {
-    __source: {
+  }, _react2.default.createElement(PostCard, { className: 'animated fadeInUp', __source: {
       fileName: _jsxFileName,
       lineNumber: 99
     }
@@ -80,7 +79,11 @@ var Index = function Index() {
       fileName: _jsxFileName,
       lineNumber: 102
     }
-  }, 'Hi! I\'m a designer and developer that splits time between San Francisco and Lake Tahoe. I currently work as a React and Rails freelancer. I also enjoy surfing, skiing and coconut chocolate-chip cookies. Seriously, coconut is a gamechanger.'), _react2.default.createElement('p', {
+  }, 'Hi! I\'m a designer, developer, photographer and founder of ', _react2.default.createElement('a', { href: 'https://listolabs.com', __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    }
+  }, 'Listo Labs'), '. I also enjoy surfing, skiing and coconut chocolate-chip cookies. Seriously, coconut is a gamechanger.'), _react2.default.createElement('p', {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 103
@@ -106,7 +109,7 @@ var Index = function Index() {
       fileName: _jsxFileName,
       lineNumber: 104
     }
-  }, 'Travel directly informs the work that I do day-to-day and exposes me to people both in busy cities and those living on the edge of the grid. I\'ve visited over 77 countries so far and am frequently on planes off to discover new places.'), _react2.default.createElement('p', {
+  }, 'Travel directly informs the work that I do day-to-day and exposes me to people both in busy cities and those living on the edge of the grid. I\'ve visited over 77 countries so far and I am frequently on planes off to discover new places.'), _react2.default.createElement('p', {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 105
@@ -120,8 +123,7 @@ var Index = function Index() {
       fileName: _jsxFileName,
       lineNumber: 106
     }
-  }, '\uD83E\uDD19 Chase')), _react2.default.createElement(Wrapper, {
-    __source: {
+  }, '\uD83E\uDD19 Chase')), _react2.default.createElement(Wrapper, { className: 'animated fadeInUp', __source: {
       fileName: _jsxFileName,
       lineNumber: 108
     }

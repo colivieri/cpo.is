@@ -1,24 +1,26 @@
 import { injectGlobal } from 'styled-components';
 import Footer from './Footer';
+import Header from './Header';
+
 import styled from 'styled-components';
 import media from '../components/media';
 
 /* eslint-disable */
 injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=Avenir+Next:600|Source+Sans+Pro:400,700,900|Source+Serif+Pro');
-  
+  @import url('https://fonts.googleapis.com/css?family=Assistant:100,400,700|Avenir+Next:600|Source+Sans+Pro:400,700,900|Source+Serif+Pro');
+
   html {
     -webkit-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
   }
   
   body {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Assistant', serif;
     font-size: 16px;
   }
   
   h1, h2, h3, h4 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Assistant', sans-serif;
   }
 
   a {
@@ -35,7 +37,7 @@ injectGlobal`
     }
   }
 `
-export const black = '#666';
+export const black = '#222';
 export const grey = '#7d7d7d';
 export const red = '#24292E';
 export const orange = '#F16125';
@@ -46,7 +48,8 @@ export const Container = styled.div`
 `
 const Layout = (props) => (
   <Container>
-    {props.children}
+    <Header/>
+      {props.children}
     <Footer/>
   </Container>
 )
