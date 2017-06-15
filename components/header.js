@@ -7,7 +7,8 @@ const MainHeader = styled.header`
   justify-content: space-between;
   padding: 0 10px;
 
-  h1, a {
+  h3 {
+    font-size: 1.5rem;
     color: black;
     text-transform: none;
   }
@@ -39,7 +40,7 @@ const MainNav = styled.ul`
   
 const Header = () => (
     <MainHeader>
-      <h3><Link href="/">chase olivieri</Link></h3>
+      <Link href="/"><h3>chase olivieri</h3></Link>
       <MainNav>
         <li><Link href="/adventures">Adventures</Link></li>
         <li><Link href="/gear">Gear</Link></li>

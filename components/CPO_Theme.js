@@ -45,6 +45,7 @@ export const yellow = '#F8B03E;';
 
 export const Container = styled.div`
   margin: 0 auto;
+  max-width: 1200px;
 `
 const Layout = (props) => (
   <Container>
