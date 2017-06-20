@@ -1,4 +1,4 @@
-import { InjectGlobal, black, grey, red, orange, yellow } from '../components/CPO_Theme';
+import { InjectGlobal, black, grey, red, orange, yellow, blue, stepu1, stepu2 } from '../components/CPO_Theme';
 import Link from 'next/link';
 import styled from 'styled-components';
 import Layout from '../components/CPO_Theme';
@@ -8,6 +8,12 @@ export const Wrapper = styled.div`
   display: flex;
   flex-flow: row wrap;
 `
+export const Words = styled.div`
+  p {
+    font-size: ${ stepu1 };
+  }
+`;
+
 export const PostCard = styled.section`
   width: 70%;
   margin: 0 auto;
@@ -33,7 +39,6 @@ export const PostCard = styled.section`
   > p {
     color: ${grey};
     margin-top: 0px;
-    font-size: 1.2em;
     text-align: left;
     line-height: 26px;
   }
@@ -52,19 +57,19 @@ export const Button = styled.div`
   font-family: 'Source Serif Pro', serif;
   background-color: ${red};
   color: black;
-  height: 18vh;
+  height: 17vh;
   text-align: center;
   text-transform: uppercase;
   cursor: pointer; 
   cursor: hand;
 
-  flex: 25%;
+  flex: 0 0 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  padding: 10px 20px;
-  margin: 5px;
+  margin-bottom: 8px;
+
 
   transition: box-shadow .25s;
   border-radius: 3px;
@@ -82,31 +87,32 @@ const Avatar = styled.img`
 `;
 
 export const AdventuresButton = Button.extend`
-  background-image: url('./static/world-map.png');
+  background: url('./static/world-map.png') 100%;
   background-size: cover;
 `;
 
 export const GearButton = Button.extend`
-  background-color: ${orange};
+  background: ${yellow};
 `;
 
 export const AboutButton = Button.extend`
-  background-color: ${yellow};
+  background-color: ${blue};
 `;
 
 const Index = () => (
   <Layout>
-    
-    <Wrapper className="animated fadeInUp">
+    <Wrapper>
+      <Link href="/contact">
+        <Button><h2>CPO</h2></Button>
+      </Link>
+      <Link href="/contact">
+        <AboutButton><h2>About</h2></AboutButton>
+      </Link>
       <Link href="/adventures">
         <AdventuresButton><h2>Adventures</h2></AdventuresButton>
       </Link>
       <Link href="/gear">
-
         <GearButton><h2>Gear</h2></GearButton>
-      </Link>
-      <Link href="/contact">
-        <AboutButton><h2>About</h2></AboutButton>
       </Link>
     </Wrapper>
   </Layout>

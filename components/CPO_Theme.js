@@ -37,19 +37,23 @@ injectGlobal`
     }
   }
 `
+export const stepu3 = '1.51572em';
+export const stepu2 = '1.31951em';
+export const stepu1 = '1.14869em';
+
+
 export const black = '#222';
 export const grey = '#7d7d7d';
 export const red = '#24292E';
 export const orange = '#F16125';
-export const yellow = '#F8B03E;';
+export const yellow = '#F6C915';
+export const blue = '#035DA5';
 
 export const Container = styled.div`
   margin: 0 auto;
-  max-width: 1200px;
 `
 const Layout = (props) => (
-  <Container>
-    <Header/>
+  <Container className="animated fadeIn">
       {props.children}
     <Footer/>
   </Container>

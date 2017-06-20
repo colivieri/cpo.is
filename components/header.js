@@ -5,7 +5,7 @@ import media from '../components/media';
 const MainHeader = styled.header`
   display: flex;
   justify-content: space-between;
-  padding: 0 10px;
+  padding: 0px;
 
   h3 {
     font-size: 1.5rem;

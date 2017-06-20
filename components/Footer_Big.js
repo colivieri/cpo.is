@@ -28,9 +28,7 @@ const ChaseIcon = styled.img`
   margin: 20px 0;
 `
 const SocialLink = styled.a `
-  &:hover {
-    border-bottom: none;
-  }
+  display: block;
 `
 
 const Social = styled.img`
@@ -86,15 +84,11 @@ const Footer = () => (
       </div>
        <div>
        <FooterSocial>
-          <SocialLink href='http://www.instagram.com/chasefoto' target='_blank'>
-            <Social src="./static/instagram.png" />
+          <SocialLink href='http://google.com' target='_blank'>
+            <Social src="./static/instagram.png" href="http://google.com" />
           </SocialLink>
-          <SocialLink href='http://www.twitter.com/chaseolivieri' target='_blank'>
-            <Social src="./static/twitter.png" />
-          </SocialLink>
-          <SocialLink href='http://www.angel.co/colivieri' target='_blank'>
-            <Social src="./static/angellist.png"/>
-          </SocialLink>
+          <Social src="./static/twitter.png" />
+          <Social src="./static/angellist.png"/>
         </FooterSocial>
       </div>
     </FooterContainer>
